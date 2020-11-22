@@ -1,5 +1,3 @@
-# dbms mini project 5th sem
-# 
 
 ## Run Locally
 
