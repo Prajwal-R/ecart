@@ -1,0 +1,30 @@
+{
+	"_id" : ObjectId("5fe40c1b566426316083ff55"), 
+	"isPaid" : false, 
+	"isDelivered" : false, 
+	"orderItems" : [ 
+	{ 
+		"_id" : ObjectId("5fe40c1b566426316083ff56"), 
+		"product" : ObjectId("5fe40b87566426316083ff51"), 
+		"name" : "Fit Shirt", 
+		"image" : "/uploads\\1608780664621.jpg", 
+		"price" : "220", 
+		"qty" : 1 
+	} ], 
+	"user" : ObjectId("5fe40bf9566426316083ff54"), 
+	"shipping" : 
+	{
+		"address" : "Anugraha kadengodlu peruvai", 
+		"city" : "Mangaluru",
+		"postalCode" : "574260", 
+		"country" : "India" 
+	}, 
+	"payment" : { "paymentMethod" : "paytm" }, 
+	"itemsPrice" : 220, 
+	"taxPrice" : 33, 
+	"shippingPrice" : 0, 
+	"totalPrice" : 253, 
+	"createdAt" : ISODate("2020-12-24T03:33:47.825Z"), 
+	"updatedAt" : ISODate("2020-12-24T03:33:47.825Z"), 
+	"__v" : 0 
+}

@@ -1,0 +1,8 @@
+{ 
+	"_id" : ObjectId("5fe40a9ed5168d07b8463042"), 
+	"isAdmin" : true, 
+	"name" : "Prajwal ", 
+	"email" : "prajwalbhat30@gmail.com", 
+	"password" : "12345", 
+	"__v" : 0 
+}

@@ -1,0 +1,14 @@
+{ 
+	"_id" : ObjectId("5fe40b52566426316083ff50"), 
+	"price" : 230, 
+	"countInStock" : 8, 
+	"rating" : 0, 
+	"numReviews" : 0, 
+	"name" : "shirt", 
+	"image" : "/uploads\\1608780612134.jpg", 
+	"brand" : "Nike", 
+	"category" : "Shirts", 
+	"description" : "vbnm", 
+	"reviews" : [ ], 
+	"__v" : 0 
+ }
