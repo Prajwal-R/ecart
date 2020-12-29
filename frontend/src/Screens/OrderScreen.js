@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { createOrder, detailsOrder, payOrder } from '../actions/orderActions';
-
+import PaypalButton from '../components/PaypalButton';
 function OrderScreen(props) {
 
   const orderPay = useSelector(state => state.orderPay);
@@ -25,7 +25,7 @@ function OrderScreen(props) {
   const orderDetails = useSelector(state => state.orderDetails);
   const { loading, order, error } = orderDetails;
 
-  return loading ? <div>Loading ...</div> : error ? <div>{error}</div> :
+  return loading ? <div></div> : error ? <div>{error}</div> :
 
     <div>
       <div className="placeorder">
@@ -96,10 +96,7 @@ function OrderScreen(props) {
         </div>
         <div className="placeorder-action">
           <ul>
-            <li className="placeorder-actions-payment">
-              {loadingPay && <div>Finishing Payment...</div>}
-              
-            </li>
+            
             <li>
               <h3>Order Summary</h3>
             </li>
